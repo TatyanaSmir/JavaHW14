@@ -1,4 +1,5 @@
 package ru.netology.domain;
+
 public class Ticket implements Comparable<Ticket> {
 
     private int id;
@@ -54,7 +55,6 @@ public class Ticket implements Comparable<Ticket> {
     public void setTime(int time) {
         this.time = time;
     }
-
 
 
     @Override

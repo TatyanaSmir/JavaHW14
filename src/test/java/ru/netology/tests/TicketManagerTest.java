@@ -42,7 +42,7 @@ public class TicketManagerTest {
 
         repo.removeById(2);
 
-        Ticket[] expected ={ticket1, ticket3, ticket4, ticket5};
+        Ticket[] expected = {ticket1, ticket3, ticket4, ticket5};
         Ticket[] actual = repo.getTickets();
 
         Assertions.assertArrayEquals(expected, actual);
